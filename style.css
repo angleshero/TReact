@@ -926,14 +926,14 @@ TESTIMONIALS ↓
 }
 
 .testimonial__bottom {
-    flex-direction: column;
-    align-items: center;
-    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    
 
 }
 
 .testimonial__profile {
-
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
