@@ -52,6 +52,22 @@ p {
     line-height: 1.5;
 }
 
+.section__para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
+}
+
+.section__title {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin: 16px 0;
+    letter-spacing: 0.025em;
+}
+
 .section__tag {
     font-size: 16px;
     color: #6415ff;
@@ -88,6 +104,14 @@ nav {
 .nav__links {
     display: flex;
     align-items: center;
+    padding-bottom: 2px;
+}
+
+.nav__logo--title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 12px;
+    letter-spacing: 0.6px;
     padding-bottom: 2px;
 }
 
@@ -378,6 +402,8 @@ FEATURES ↓
    text-align: center;
    max-width: 576px;
 }
+
+
 
 .features {
     display: flex;
