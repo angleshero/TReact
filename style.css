@@ -1048,7 +1048,7 @@ main {
 
 
 .start__container {
-    padding: 96px 0;
+    padding: 100px 0;
     width: 100%;
     background-color: rgb(100, 21, 255);
     border-radius: 8px;
@@ -1076,18 +1076,7 @@ main {
     margin-right: 0;
 }
 
-.start__button {
-     padding: 20px 40px;
-    border-radius: 500px;
-    font-weight: 700;
-    font-size: 16px;
-    color: #f7fafc;
-    line-height: 1.5;
-    letter-spacing: 0.025em;
-    margin: 1px;
-    z-index: 2;
-    
-}
+
 
 .start__button:nth-child(1) {
     background: #f56565;
@@ -1099,8 +1088,6 @@ main {
 .start__button:hover:nth-child(1) {
     background-color: rgba(229,62,62);
 }
-
-
 
 
 
